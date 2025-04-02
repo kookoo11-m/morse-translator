@@ -4,7 +4,7 @@
 <!--add UTF-8 charset-->
    <meta charset="utf-8">
 <!--make the page responsive-->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--add bootstrap css-->
    <link href="css/bootstrap.min.css" rel="stylesheet">
 <!--add css-->
@@ -28,10 +28,11 @@
   <br>
 <!--add input field wich is a textarea-->
   <div        class="form-floating">
-    <textarea class="form-control txter" id="Input" placeholder="Enter input to translate"  
-     style="height: 200px"></textarea>
+    <textarea class="form-control txter" id="Input" placeholder="Enter input to translate" style="height: 200px" onkeyup="check_input()"></textarea>
     <label    for="Input">Enter input to translate</label>
   </div>
+
+<span id="error" class="text-danger"></span>
 
   <br>
   <br>
@@ -65,7 +66,7 @@
   &ensp;
   &ensp;
 <!--add clear button-->
-<button type="button" class="btn btn-outline-danger"    onclick="clearfields()">clear    </button>
+<button type="button" class="btn btn-outline-danger" id="clearb"   onclick="clearfields()">clear    </button>
 
   <br>
   <br>

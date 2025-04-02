@@ -4,6 +4,118 @@ function get_and_translate_morse() {
     var rawinput = document.getElementById('Input');
     //get the value of the input
     var theinput = rawinput.value
+    
+    //clear the error filed
+    document.getElementById('error').innerHTML = "";
+
+    //check if input is valid
+    if(theinput.indexOf("a") != -1 || theinput.indexOf("A") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";
+        return "";
+    }
+    if(theinput.indexOf("b") != -1 || theinput.indexOf("B") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("c") != -1 || theinput.indexOf("C") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("d") != -1 || theinput.indexOf("D") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("e") != -1 || theinput.indexOf("E") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("f") != -1 || theinput.indexOf("F") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("g") != -1 || theinput.indexOf("G") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("h") != -1 || theinput.indexOf("H") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("i") != -1 || theinput.indexOf("I") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("j") != -1 || theinput.indexOf("J") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("k") != -1 || theinput.indexOf("K") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("l") != -1 || theinput.indexOf("L") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }  
+    if(theinput.indexOf("m") != -1 || theinput.indexOf("M") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("n") != -1 || theinput.indexOf("N") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("o") != -1 || theinput.indexOf("O") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("p") != -1 || theinput.indexOf("P") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("q") != -1 || theinput.indexOf("Q") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("r") != -1 || theinput.indexOf("R") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("s") != -1 || theinput.indexOf("S") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("t") != -1 || theinput.indexOf("T") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("u") != -1 || theinput.indexOf("U") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("v") != -1 || theinput.indexOf("V") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("w") != -1 || theinput.indexOf("W") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("x") != -1 || theinput.indexOf("X") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("y") != -1 || theinput.indexOf("Y") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+    if(theinput.indexOf("z") != -1 || theinput.indexOf("Z") != -1){
+        document.getElementById('error').innerHTML = "#*#*#*#*#*#*#Invalid input#*#*#*#*#*#*#";   
+        return "";
+    }
+
+        //clear the error filed
+        document.getElementById('error').innerHTML = "";
 
     //replace all spaces with two spaces
     var theinput = theinput.replaceAll(" ","  ")
@@ -108,6 +220,9 @@ var therawinput = document.getElementById('Input');
 //get the value of the input
 var theinput = therawinput.value
 
+    //clear the error filed
+    document.getElementById('error').innerHTML = "";
+
 //translate small abc to morse
 var theinput = theinput.replaceAll("a",".- ")
 var theinput = theinput.replaceAll("b","-... ")
@@ -198,3 +313,14 @@ return(theinput)
 function show_morse_output() {
     document.getElementById('output').value = get_and_translate_abc()
 }
+
+function check_input(){
+    //get the input from the input field
+    var rawinput = document.getElementById('Input');
+    //get the value of the input
+    var theinput = rawinput.value
+    if(theinput == ""){
+        document.getElementById("clearb").disabled = true;
+    }    
+}
+setInterval(check_input,10)
